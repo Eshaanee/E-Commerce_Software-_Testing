@@ -1,0 +1,84 @@
+body{
+	font-size: 17px;
+	padding: 0;
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -16px;
+
+}
+.col-75{
+
+	padding: 0 16px;
+	margin-top: 70px;
+	margin-left: 270px;
+	
+}
+.col-50{
+	flex: 50%;
+	padding: 0 20px;
+}
+.container_1{
+	background-color: #f2f2f2;
+	padding: 5px 20px 15px 20px;
+	border:1px solid #e3e3e3;
+	border-radius: 3px;
+}
+input[type=text],
+input[type=email]{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 12px;
+	border:1px solid #ccc;
+	border-radius: 3px;
+}
+label{
+	margin-bottom: 10px;
+	display: block;
+}
+
+.btn{
+	background-color: #4caf50;
+	color: #fff;
+	padding: 12px;
+	margin: 10px 350px;
+	border:none;
+	width: 200px;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 17px;
+}
+.btn:hover{
+	background-color: #24d4cc;
+}
+a{
+	color: #2196f3;
+}
+hr{
+	border:1px solid #e3e3e3;
+
+}
+::-webkit-input-placeholder{
+	color: #064887;
+	}
+::-moz-input-placeholder{
+	color: #064887;
+}
+::-ms-input-placeholder{
+	color: #064887;
+}
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
